@@ -37,7 +37,7 @@ $(function() {
 	        }
 
 	        $.ajax({
-	            url: 'php/grabtweets.php',
+	            url: '/static/php/grabtweets.php',
 	            type: 'POST',
 	            dataType: 'json',
 	            data: request,
