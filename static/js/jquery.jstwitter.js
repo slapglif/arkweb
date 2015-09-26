@@ -37,7 +37,7 @@ $(function() {
 	        }
 
 	        $.ajax({
-	            url: '/static/php/grabtweets.php',
+	            url: 'http://kc2.freebieservers.com/php/grabtweets.php',
 	            type: 'POST',
 	            dataType: 'json',
 	            data: request,
