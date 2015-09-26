@@ -7,7 +7,7 @@ $(function() {
 	    // for multiple hashtags, you can separate the hashtag with OR, eg:
 	    // hash: '%23jquery OR %23css'			    
 	    search: '', //leave this blank if you want to show user's tweet
-	    user: 'envato', //username
+	    user: 'xtcr', //username
 	    numTweets: 5, //number of tweets
 	    appendTo: '#jstwitter',
 	    useGridalicious: true,

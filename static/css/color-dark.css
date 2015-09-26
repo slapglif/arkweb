@@ -15,7 +15,7 @@
 	
 
 	body { color: #f1f1f1; }
-	body, .pageFade { background-color: #222222; }
+	body, .pageFade { background: #222222; }
 	.darkStyle { color: #f1f1f1	}
 
 
@@ -25,14 +25,14 @@
 	body.plain_bg, .plain_bg .pageFade,
 	.plain_bg .home_page.right_content, .plain_bg .home_page.left_content
 		{
-		background: none; 
+		background: none;
 		filter: none; 
 		background-color:#222222;
 		}
 	
 	.plain_bg .contentWrapper 
 		{
-		background: none; 
+		background: none;
 		filter: none; 
 		background-color:#282828;
 		}
