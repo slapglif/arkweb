@@ -144,7 +144,7 @@
 				// Send form data to mailer.php 
 				$.ajax({
 					type: "POST",
-					url: "php/mailer.joinus.php",
+					url: "/static/php/mailer.joinus.php",
 					data: dataString,
 					success: function() {
 						$('#reply_joinus_message').removeClass('email_loading');
@@ -199,7 +199,7 @@
 				// Send form data to mailer.php 
 				$.ajax({
 					type: "POST",
-					url: "php/mailer.php",
+					url: "/static/php/mailer.php",
 					data: dataString,
 					success: function() {
 						$('#reply_message').removeClass('email_loading');
